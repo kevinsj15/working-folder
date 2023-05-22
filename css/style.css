@@ -1,5 +1,9 @@
 /* ロゴとナビ部分 */
 /* ヘッダーセクションのスタイル */
+a {
+  text-decoration: none;
+  color: #000;
+}
 .header {
     /* flexboxを使用してロゴとナビゲーションを横並びにする */
     display: flex;
@@ -35,6 +39,7 @@
     /* margin-left: 50pxでナビゲーション項目同士の間隔を50pxに設定 */
     font-size: 24px;
     margin-left: 50px;
+    text-underline-offset: ;
   }
 
 /* ヘッダー部分 */

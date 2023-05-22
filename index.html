@@ -20,19 +20,41 @@
 <body>
   <!-- この中に記述していく -->
   <!-- ここから下にコードを書く -->
+
   <!-- Topに戻るボタン  -->
   <a class="pagetop" href="#"><div class="pagetop__arrow"></div></a>
+
   <!-- ヘッダーセクションを囲むdiv -->
   <div class="header">
   <!-- ロゴ画像。class="logo"を指定してスタイルを適用 -->
   <img class="logo" src="./img/header_logo.png" alt="header logo">
   <!-- ナビゲーションセクション。class="navigation"を指定してスタイルを適用 -->
   <div class="navigation">
-    <div class="nav-item">ABOUT</div>
-    <div class="nav-item">COURSE</div>
-    <div class="nav-item">NEWS</div>
-    <div class="nav-item">ACCESS</div>
-    <div class="nav-item">CONTACT</div>
+    <div class="nav-item">
+      <a href="#about">
+        ABOUT
+      </a>
+    </div>
+    <div class="nav-item">
+      <a href="#course"> 
+        COURSE
+      </a>
+    </div>
+    <div class="nav-item">
+     <a href="#news">
+        NEWS
+      </a> 
+    </div>
+    <div class="nav-item">
+      <a href="#access">
+        ACCESS
+      </a>
+    </div>
+    <div class="nav-item">
+      <a href="#contact">
+        CONTACT
+      </a>
+    </div>
   </div>
 </div>
   <!-- ヘッダー画像とその中の文字をここに作る -->
@@ -47,11 +69,14 @@
     </div>
   </div>
 
+  <!-- jump to Aboutタグ -->
+  <div id="about">
   <!-- Aboutタイトル -->
   <div class="english-heading">
     <div class="yellow-about"> 
       ABOUT
     </div>
+  </div>
   </div>
   <!-- About本文部分 -->
   <div class="title">
@@ -82,6 +107,8 @@
   </div>
 </div>
   <!-- COURSEの上部説明部分を作る -->
+  <!-- hrefタグ -->
+  <div id="course"></div>
 <div class="english-heading">
   COURSE
 </div>
@@ -139,6 +166,8 @@
 <!-- COURSE本体部分テストここまで -->
 
   <!-- NEWS部分を作る -->
+  <!-- news タグ -->
+  <div id="news"></div>
   <div class="english-heading">
     <div class="yellow-about">
     NEWS
@@ -195,6 +224,8 @@
   </div>
 
   <!-- Access部分を作る -->
+    <!-- access tag -->
+<div id="access"></div>
   <div class="english-heading">
     ACCESS
   </div>
@@ -207,6 +238,7 @@
   </div>
 
   <!-- Access部分の説明 -->
+
 <div class="access-zentai">
   <div class="access-honbun">
     <p>
@@ -236,6 +268,8 @@
 </div>
 
   <!-- Contactトップ部分を作る -->
+  <!-- conctact tag -->
+  <div id="contact"></div>
   <div class="english-heading">
     CONTACT
   </div>
