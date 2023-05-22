@@ -20,7 +20,8 @@
 <body>
   <!-- この中に記述していく -->
   <!-- ここから下にコードを書く -->
-
+  <!-- Topに戻るボタン  -->
+  <a class="pagetop" href="#"><div class="pagetop__arrow"></div></a>
   <!-- ヘッダーセクションを囲むdiv -->
   <div class="header">
   <!-- ロゴ画像。class="logo"を指定してスタイルを適用 -->
@@ -39,7 +40,10 @@
     <img src="./img/mainbg.png" alt="mainbg">
     <div class="text">
       <div class="line1">セカイを変えるチーズを作ろう</div>
-      <div class="line2">チーズ職人養成学校「チーズアカデミーTOKYO」</div>
+      <div class="line2">
+        チーズ職人養成学校
+        <p>「チーズアカデミーTOKYO」</p>
+      </div>
     </div>
   </div>
 
@@ -85,58 +89,54 @@
   <p>未経験からでもスタートができるよう、カリキュラムは多くの専門家や</p>
   <p>現役チーズ職人のアドバイスのもと、作られました。</p>
 </div>
-  <!-- COURSE本体部分を作る -->
 
-  <!-- 最初の段 -->
-  <div class="course-01">
-    <div class="course-picture">
-      <img src="./img/course_01.jpg" alt="course01">
-    </div>
-    <div class="course-title">
-    本格的な農園を使った実地研修
-    </div>
-    <div class="course-honbun">
-    <p>チーズアカデミーでは、本格的な農園を使った実地研修を</p>
-    <p>行うことができます。プロとして活躍するチーズ職人も</p>
-    <p>使用するような、広大で環境も整った農園を余すところ</p>
-    <p>なく使い、卒業時には本格的なチーズを自分の力で作れる</p>
-    <p>実践力の養成を目指します。</p>
+<!-- COUUSER本体部分テスト -->
+<div class="course-container">
+  <div class="row">
+    <img class="course-image" src="./img/course_01.jpg">
+    <div class="course-text">
+      <h2 class="course-title">本格的な農園を使った実地研修</h2>
+      <p class="course-body">
+        <p>チーズアカデミーでは、本格的な農園を使った実地研修を</p>
+        <p>行うことができます。プロとして活躍するチーズ職人も</p>
+        <p>使用するような、広大で環境も整った農園を余すところ</p>
+        <p>なく使い、卒業時には本格的なチーズを自分の力で作れる</p>
+        <p>実践力の養成を目指します。</p>
+      </p>
     </div>
   </div>
-
-<!-- course-02 -->
-  <div class="course-02">
-    <div class="course-picture">
-      <img src="./img/course_02.jpg" alt="course02">
-    </div>
-    <div class="course-title">
-      必要な知識もしっかりと取得
-    </div>
-    <div class="course-honbun">
-      チーズ作りには、しっかりとした食に関する知識が
-      欠かせません。チーズアカデミーでは、一流講師陣による、
-      チーズ作りに必要ないろはを余すところなく学べます。
-      チーズそのものでなく、栄養学全般を学ぶことも
-      可能ですので、チーズ以外への展開も夢ではないでしょう。
+  <div class="row reverse">
+    <img class="course-image" src="./img/course_02.jpg">
+    <div class="course-text">
+      <h2 class="course-title">
+        必要な知識もしっかりと取得
+      </h2>
+      <p class="course-body">
+        <p>チーズ作りには、しっかりとした食に関する知識が</p>
+        <p>欠かせません。チーズアカデミーでは、一流講師陣による、</p>
+        <p>チーズ作りに必要ないろはを余すところなく学べます。</p>
+        <p>チーズそのものでなく、栄養学全般を学ぶことも</p>
+        <p>可能ですので、チーズ以外への展開も夢ではないでしょう。</p>
+      </p>
     </div>
   </div>
-
-<!-- couse-03 -->
-  <div class="course-03">
-    <div class="course-picture">
-      <img src="./img/course_03.jpg" alt="course03">
-    </div>
-    <div class="course-title">
-      卒業制作はティスティング審査あり
-    </div>
-    <div class="course-honbun">
-      チーズアカデミーでは最後の2ヶ月間で卒業制作を実施。
-      卒業制作として、チーズ作りを実際に行います。卒業後、
-      一般参加によるティスティング審査があるため、作り手の
-      目線だけでなく、消費者の目線から、卒業制作作品としての
-      チーズを、しっかりと評価いただくことができます。
+  <div class="row">
+    <img class="course-image" src="./img/course_03.jpg">
+    <div class="course-text">
+      <h2 class="course-title">
+        卒業制作はティスティング審査あり
+      </h2>
+      <p class="course-body">
+        <p>チーズアカデミーでは最後の2ヶ月間で卒業制作を実施。</p>
+        <p>卒業制作として、チーズ作りを実際に行います。卒業後、</p>
+        <p>一般参加によるティスティング審査があるため、作り手の</p>
+        <p>目線だけでなく、消費者の目線から、卒業制作作品としての</p>
+        <p>チーズを、しっかりと評価いただくことができます。</p>
+      </p>
     </div>
   </div>
+</div>
+<!-- COURSE本体部分テストここまで -->
 
   <!-- NEWS部分を作る -->
   <div class="english-heading">
@@ -155,35 +155,38 @@
     <div class="box">
       <img src="./img/news_img.jpg" alt="Image 1">
       <h2 class="date-header">
-        2016/11/18
+        <p> 2016/11/18</p>
       </h2>
-      <p class="text">
-        チーズアカデミー卒業生のコスゲさんによる
+      <div class="text-news">
+        <p>チーズアカデミー卒業生のコスゲさんによる</p>
         <p>チーズだけをふんだんに使用した話題のピザ屋</p>
         <p>「Kosuge Pizza」が渋谷でオープンしました!</p>
       </p>
+    </div>
     </div>
     <div class="box">
       <img src="./img/news_img.jpg" alt="Image 2">
       <h2 class="date-header">
-        2016/11/18
+        <p> 2016/11/18</p>
       </h2>
-      <p class="text">
-        チーズアカデミー卒業生のコスゲさんによる
+      <div class="text-news">
+        <p>チーズアカデミー卒業生のコスゲさんによる</p>
         <p>チーズだけをふんだんに使用した話題のピザ屋</p>
         <p>「Kosuge Pizza」が渋谷でオープンしました!</p>
       </p>
     </div>
+    </div>
     <div class="box">
       <img src="./img/news_img.jpg" alt="Image 3">
       <h2 class="date-header">
-        2016/11/18
+        <p> 2016/11/18</p>
       </h2>
-      <p class="text">
-        チーズアカデミー卒業生のコスゲさんによる
+      <div class="text-news">
+        <p>チーズアカデミー卒業生のコスゲさんによる</p>
         <p>チーズだけをふんだんに使用した話題のピザ屋</p>
         <p>「Kosuge Pizza」が渋谷でオープンしました!</p>
       </p>
+    </div>
     </div>
   </div>
   <!-- 黄色のボタン部分 -->
@@ -259,9 +262,9 @@
     </div>
   </div>
   <!-- コンタクトフォームを作る -->
-  <div class="bar-container">
+  <!-- <div class="bar-container">
     <div class="center-bar"></div>
-  </div>
+  </div> -->
   <table>
     <tr>
       <td style="padding-left: 16px; padding-right: 64px;">名前</td>
@@ -316,12 +319,9 @@
     </div>
   </div>
 
-  
-
   <!-- ここから上にコードを書く -->
   <!-- この中に記述していく -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/main.js"></script>
 </body>
-
 </html>
